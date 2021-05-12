@@ -1,0 +1,57 @@
+/* ************************************ */
+/* ! *************Variables************* */
+/* ************************************ */
+:root {
+   /* ?medias */
+   --mobile: 375px;
+   --desktop: 1440px;
+
+   /* ?Colors */
+   /* ?Primary */
+
+   --main-background: hsl(233, 47%, 7%);
+   --card-background: hsl(244, 38%, 16%);
+   --Soft-violet: hsl(277, 64%, 61%);
+
+   /* ?Neutral */
+   /* main heading, stats */
+   --White: hsl(0, 0%, 100%);
+   --main-paragraph: hsla(0, 0%, 100%, 0.75);
+   --stat-headings: hsla(0, 0%, 100%, 0.6);
+}
+
+body,
+html {
+   width: 100vw;
+   height: 100vh;
+   font-size: 15px;
+}
+.main {
+   width: 100%;
+   height: 100%;
+   background-color: var(--main-background);
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.container {
+   background-color: var(--card-background);
+   width: 60%;
+   display: flex;
+}
+.box {
+   width: 50%;
+}
+
+.box-text {
+   padding: 1rem;
+}
+.box-text span {
+   color: var(--Soft-violet);
+}
+
+img {
+   max-width: 100%;
+}
