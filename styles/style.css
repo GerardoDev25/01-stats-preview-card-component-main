@@ -45,7 +45,7 @@ body {
 
 .container {
    background-color: var(--card-background);
-   width: 60%;
+   width: 70%;
    min-width: 650px;
    display: flex;
 }
@@ -61,6 +61,28 @@ body {
 }
 .box1-text {
    font-family: Inter;
+}
+.box1-text h1 {
+   font-size: 2rem;
+}
+.box1-text p {
+   font-size: 15px;
+}
+.box1-container {
+   border: 3px solid white;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-between; */
+}
+
+.box1-text{
+height: 65%;
+padding: 1rem;
+}
+.box1-container article {
+   display: flex;
+   justify-content: space-around;
 }
 
 img {
