@@ -1,6 +1,8 @@
 /* ************************************ */
 /* ! *************Variables************* */
 /* ************************************ */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;411&display=swap");
+
 :root {
    /* ?medias */
    --mobile: 375px;
@@ -26,6 +28,11 @@ html {
    height: 100vh;
    font-size: 15px;
 }
+
+body {
+   font-family: "Inter", sans-serif;
+}
+
 .main {
    width: 100%;
    height: 100%;
@@ -38,7 +45,8 @@ html {
 
 .container {
    background-color: var(--card-background);
-   width: 60%;
+   width: 70%;
+   min-width: 650px;
    display: flex;
 }
 .box {
@@ -50,6 +58,31 @@ html {
 }
 .box-text span {
    color: var(--Soft-violet);
+}
+.box1-text {
+   font-family: Inter;
+}
+.box1-text h1 {
+   font-size: 2rem;
+}
+.box1-text p {
+   font-size: 15px;
+}
+.box1-container {
+   border: 3px solid white;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-between; */
+}
+
+.box1-text{
+height: 65%;
+padding: 1rem;
+}
+.box1-container article {
+   display: flex;
+   justify-content: space-around;
 }
 
 img {
