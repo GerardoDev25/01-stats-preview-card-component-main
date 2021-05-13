@@ -19,7 +19,11 @@ html {
 /**
    * Remove the margin in all browsers.
    */
-
+*,
+*::after,
+*::before {
+   box-sizing: content-box;
+}
 body {
    margin: 0;
 }
