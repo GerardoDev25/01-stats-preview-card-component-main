@@ -59,7 +59,7 @@ body {
    width: 100%;
    max-width: 100%;
    overflow: hidden;
-   background-image: url("/images/image-header-desktop.jpg") !important;
+   background-image: url("https://gerardodev25.github.io/01-stats-preview-card-component-main/images/image-header-desktop.jpg") !important;
 }
 .box-filter {
    width: 100%;
