@@ -128,7 +128,7 @@ body {
    .box-img {
       order: -1;
       height: 34.6%;
-      background-image: url("/images/image-header-mobile.jpg");
+      background-image: url("https://gerardodev25.github.io/01-stats-preview-card-component-main/images/image-header-mobile.jpg");
       background-size: contain;
       background-repeat: no-repeat;
    }
