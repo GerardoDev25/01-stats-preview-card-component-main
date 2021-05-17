@@ -4,12 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;411&display=swap");
 
 :root {
-   /* ?medias */
-   --mobile: 375px;
-   --desktop: 1440px;
-
-   /* ?Colors */
-
    --main-background: hsl(233, 47%, 7%);
    --card-background: hsl(244, 38%, 16%);
    --Soft-violet: hsl(277, 64%, 61%);
@@ -59,7 +53,7 @@ body {
    width: 100%;
    max-width: 100%;
    overflow: hidden;
-   background-image: url("https://gerardodev25.github.io/01-stats-preview-card-component-main/images/image-header-desktop.jpg") !important;
+   background-image: url("https://gerardodev25.github.io/01-stats-preview-card-component-main/images/image-header-desktop.jpg");
 }
 .box-filter {
    width: 100%;
@@ -82,7 +76,7 @@ body {
    margin-top: 7%;
 }
 
-.box1 h1{
+.box1 h1 {
    font-weight: 900;
 }
 .box1 p {
@@ -101,10 +95,52 @@ body {
 .box-info p {
    margin: 0;
    padding: 0;
-   color: var(--main-paragraph);
+   color: var(--stat-headings);
 }
 .box-info div {
    color: white;
    font-size: 1.4rem;
    font-weight: 750;
+}
+
+@media screen and (max-width: 376px) {
+   .main {
+      overflow: auto;
+   }
+   .container {
+      height: 90%;
+      max-height: 720px;
+      min-height: 720px;
+      /* width: 90%; */
+      width: 335px;
+      min-width: 334px;
+      flex-wrap: wrap;
+      text-align: center;
+   }
+   .box {
+      max-width: 100%;
+      height: 50%;
+   }
+   .box-text {
+      height: 68%;
+      padding: 1rem 1.5rem;
+   }
+
+   .box-img {
+      order: -1;
+      height: 34.6%;
+      background-image: url("https://gerardodev25.github.io/01-stats-preview-card-component-main/images/image-header-mobile.jpg");
+      background-size: contain;
+      background-repeat: no-repeat;
+   }
+
+   .box2 {
+      flex-direction: column;
+   }
+   .box1 {
+      margin-bottom: 1rem;
+   }
+   .box-info {
+      margin: 1rem;
+   }
 }
